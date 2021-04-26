@@ -36,3 +36,98 @@
     height: 100%;
     width: 100%;
 }
+
+/* Get Content Part */
+
+.getContent{
+    background: #2C3C62;
+    height: 470px;
+}
+
+.getTitle h2{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+.get2ndTitle{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+/* Get Input Step */
+
+#GetInputStep{
+    
+}
+
+#Get1stInputStep label{
+    color: white;
+    display: block;
+    padding: 4px;
+    font-size: 20px;
+}
+
+#Get1stInputStep input{
+    height: 50px;
+    width: 100%;
+}
+
+/*  */
+
+#Get2ndInputStep label{
+    color: white;
+    display: block;
+    padding: 4px;
+    font-size: 112%;
+}
+
+#Get2ndInputStep select{
+    height: 50px;
+    width: 100%;
+    font-family: cursive;
+}
+
+/*  */
+
+#Get3rdInputStep label{
+    color: white;
+    display: block;
+    padding: 4px;
+    font-size: 20px;
+}
+
+#Get3rdInputStep input{
+    height: 50px;
+    width: 100%;
+}
+
+/*  */
+
+#getButton button{
+    width: 200px;
+    background-color: #C06814;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*  */
+
+.G4{
+    background: #C0F8FF;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.G4 h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 0px;
+} 
+
+#G4imgP p{
+    background: #F7F8F2;
+    padding: 5px;
+}

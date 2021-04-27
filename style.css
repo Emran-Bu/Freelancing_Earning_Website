@@ -189,3 +189,72 @@
 #dragTitle h5{
     color: #d1c3bc;
 }
+
+/*  */
+
+#why1stPart{
+    background-color: #F5F5F5;
+}
+
+#why1stPart h1{
+    padding: 2px;
+    color: #1A8BCD;
+    font-weight: bold;
+}
+
+#why1stPart p{
+    padding: 5px;
+}
+
+/* 1st box */
+
+#boxShadow{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+#box1{
+    margin-bottom: 5px;
+    background: #F5F5F5;
+    width: 100%;
+    height: 171px;
+    box-shadow: 4px 4px 8px 5px black;
+    border-radius: 8px;
+}
+
+#box1 h2{
+    color: #02aa97;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+#box1 img{
+    width: 100%;
+}
+
+/*  Print meedia part */
+
+.mainWrapDiv{
+
+}
+
+.mainWrapDiv .wrapColor{
+    background: #322433;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    color: #0691EE;
+    font-size: 24px;
+}
+
+/* GD Some Works */
+
+#GDSome{
+    background: #223A60;
+}
+
+#GDSome h1{
+    font-size: 60px;
+    font-weight: bolder;
+}

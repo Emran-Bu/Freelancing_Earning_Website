@@ -131,3 +131,61 @@
     background: #F7F8F2;
     padding: 5px;
 }
+
+/* trial photos part */
+
+.trialContent{
+    background-color: #009B97;
+    height: 500px;
+}
+
+.trialContent h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.trialContent p{
+    font-family: cursive;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+#available p{
+    font-size: 14px;
+    margin-top: 119px;
+}
+/*  */
+
+#dragTitle{
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    padding: 7px;
+}
+
+#dragTitle span{
+    font-size: 11px;
+    font-weight: bold;
+    width: 0%;
+    color: #d1c3bc;
+}
+
+.dragBorder{
+    border: 1px dashed red ;
+}
+
+.dragBorder img{
+    margin-top: 40px;
+    width: 80%;
+    height: 40px;
+}
+
+.file-upload{
+    width: 100%;
+    color: red;
+}
+
+#dragTitle h5{
+    color: #d1c3bc;
+}

@@ -958,7 +958,42 @@
           <div class="container my-3" id="GDSome">
             <h1 class="text-light py-2 text-center">Graphics Design Some Works</h1>
           </div>
-      
+
+           <!-- GD Some Works slider-->
+           
+          <div class="container">
+
+            <div class="" id="mainDiv">
+              <div class="container mt-4">
+                  <div class="" id="mainImg">
+                      <img class="big-img" src="img/img-4.jpg" alt="">
+                  </div>
+              </div>
+          
+              <div class="container">
+                  <div class="" id="allImg">
+                      <img class="small-img" src="img/img-4.jpg" alt="">
+                      <img class="small-img" src="img/img-3.jpg" alt="">
+                      <img class="small-img" src="img/img-5.jpg" alt="">
+                      <img class="small-img" src="img/img-4.jpg" alt="">
+                      <img class="small-img" src="img/img-7.jpg" alt="">
+                      <img class="small-img" src="img/img-8.jpg" alt="">
+                      <img class="small-img" src="img/img-9.jpg" alt="">
+                  </div>
+              </div>
+          </div>
+
+          </div>
+
+          <!-- Best Prices Part -->
+
+          <div class="container my-2">
+
+            <div class="PriceTitle">
+              <h1>Get The Best Prices For Image Editing Services</h1>
+            </div>
+
+          </div>
 
     <!-- main div max-width = 960px -->
     </div>
@@ -969,7 +1004,11 @@
     <script src="font/fontawesome-free-5.js"></script>
 
     <script type="text/javascript">
-
+          $(document).ready(function () {
+            $('.small-img').click(function() {
+                $('.big-img').attr('src', $(this).attr('src'))
+            })
+        })
     </script>
 
 </body>

@@ -293,7 +293,7 @@
     opacity: 1;
 }
 
-/*  */
+/* GD Some Works slider */
 
 .PriceTitle h1{
     background: #F7F7F7;
@@ -301,4 +301,111 @@
     text-align: center;
     font-weight: bold;
     font-size: 42px;
+}
+
+/* Best Prices row Part */
+#bestRow{
+    /* overflow: hidden; */
+}
+    /* float: left; */
+/* } */
+.rowAll{
+    /* float:left; */
+    /* width: 960px; */
+    /* display: block; */
+}
+
+.col{
+    width: 234px;
+    float: left;
+    border-right: 1px solid #fff;
+    
+}
+
+.marginBottom{
+    border-bottom: 1px solid;
+}
+
+.bestTitle{
+    background: #2A92CF;
+    text-align: center;
+    padding:8px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bestTitle2{
+    background: #F9F9F9;
+    text-align: center;
+    padding:8px;
+    font-size: 14px;
+}
+
+.colRadius{
+    background: #F7F7F7;
+    height: 172px;
+    width: 100%;
+    padding:15px;
+}
+
+.colRadius .radius{
+ border-radius: 50%;
+ border: 2px solid #197CB7;
+ background: #fff;
+ height: 103%;
+ width: 74%;
+}
+
+.innerPart h1{
+    font-size: 20px;
+    color: #8D95A2;
+}
+.innerPart p{
+    font-size: 12px;
+    color: #C8C6D1;
+}
+
+
+.Order h1{
+    font-size: 30px;
+    color: #FCFEFD;
+    background: #6E6D69;
+    padding: 5px;
+}
+
+/* last part */
+
+.childDiv h2{
+    color: #2C98D6;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.childDiv h3{
+    color: #2C98D6;
+}
+
+.childDiv h4{
+    color: #2C98D6;
+}
+
+.childDiv h5{
+    color: #2C98D6;
+}
+
+.childDiv p{
+    color: #B1B6B2;
+}
+
+/* footer part */
+
+.footer{
+    background: #E5E4E9;
+    padding: 15px;
+}
+
+.footer span a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
 }
